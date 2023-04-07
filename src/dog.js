@@ -87,7 +87,7 @@ affen.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -104,7 +104,7 @@ akita.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -121,7 +121,7 @@ bbd.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -138,7 +138,7 @@ frb.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -155,7 +155,7 @@ chi.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -172,7 +172,7 @@ corgi.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -189,7 +189,7 @@ dalma.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -206,7 +206,7 @@ dober.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+    
     );
 });
 
@@ -223,7 +223,7 @@ elk.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -240,7 +240,7 @@ frise.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -257,7 +257,7 @@ gsheph.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+    
     );
 });
 
@@ -274,7 +274,7 @@ ghound.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -291,7 +291,7 @@ husky.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+      
     );
 });
 
@@ -308,7 +308,7 @@ wolfH.addEventListener("click", () => {
         affenImg.height = "400";
         pic.replaceChildren(affenImg);
       },
-      { once: true }
+    
     );
 });
 
