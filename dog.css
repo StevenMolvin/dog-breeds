@@ -32,6 +32,7 @@ html {
 }
 
 #comments {
+  background: black;
   float: right;
   text-align: left;
   justify-content: right;
@@ -68,3 +69,11 @@ html {
   height: 400px;
   width: 50%;
 }
+
+li {
+  font-size: xx-large;
+}
+ #p {
+  width: 490px ;
+  height: 50px;
+ }
