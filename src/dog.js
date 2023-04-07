@@ -317,8 +317,11 @@ commentForm.addEventListener("submit", (e) => {
   let input = document.getElementById("input").value;
   let newComment = document.createElement("li");
   newComment.innerHTML = input;
-  console.log(newComment);
+  if (input != "") {
   comment.appendChild(newComment);
+  } else {
+    alert("Write something!")
+  }
 
   commentForm.reset();
 });
