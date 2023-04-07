@@ -31,3 +31,35 @@ html {
   left: 0;
 }
 
+#comments {
+  float: right;
+  text-align: left;
+  justify-content: right;
+  width: 500px;
+  height: 1400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#comment {
+  color: firebrick;
+}
+
+#clabel {
+  font-size: x-large;
+
+  color: firebrick;
+}
+
+#input {
+  font-size: x-large;
+  width: 490px;
+  height: 50px;
+}
+#submit {
+  font-size: larger;
+  float: right;
+  width: 156px;
+  height: 40px;
+}
