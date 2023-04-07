@@ -2,7 +2,7 @@
 const header = document.getElementById("h1");
 const note = document.getElementById("note");
 const doThis = document.getElementById("do");
-const after = document.getElementById("clear")
+const after = document.getElementById("clear");
 const pic = document.getElementById("image");
 const commentForm = document.getElementById("commentForm");
 const comment = document.getElementById("comment");
@@ -55,7 +55,22 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     note.innerHTML = "Get familiar with dog breeds as you explore!";
   }, 7500);
-  
+
+  setTimeout(() => {
+    doThis.innerHTML = "Click a breed name";
+  }, 8000);
+  setTimeout(() => {
+    doThis.innerHTML = "Click a breed name to see its picture!";
+  }, 8500);
+  setTimeout(() => {
+    after.innerHTML = "Do not ";
+  }, 9000);
+  setTimeout(() => {
+    after.innerHTML = "Do not hesitate to ";
+  }, 9500);
+  setTimeout(() => {
+    after.innerHTML = "Do not hesitate to leave a comment!";
+  }, 10000);
 });
 
 //ONCLICK EVENTS
