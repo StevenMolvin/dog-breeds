@@ -1,5 +1,7 @@
  // Access DOM elements
  const pic = document.getElementById("image");
+ const commentForm = document.getElementById("commentForm");
+ const comment = document.getElementById("comment")
  const affen = document.getElementById("affen");
  const akita = document.getElementById("akita");
  const bbd = document.getElementById("bbd");
@@ -212,3 +214,13 @@ wolfH.addEventListener("click", () => {
     }, {once: true});
 })
 
+commentForm.addEventListener("submit", (e) =>{
+      e.preventDefault();
+      let input = document.getElementById("input").value;
+      let newComment = document.createElement("li");
+      newComment.innerHTML = input;
+      console.log(newComment)
+      comment.appendChild(newComment);
+
+      commentForm.reset();
+    })
