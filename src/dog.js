@@ -18,7 +18,8 @@
   //ONCLICK EVENTS
   affen.addEventListener("click", () => {
     //GET matching photo of an Affenpinscher
-
+    fetch("https://dog.ceo/api/breed/affenpinscher/images")
+    .then((response) => response.json())
     .then((data) => {
       let affenImg = document.createElement("img");
       affenImg.src = `${data.message[23]}`;
