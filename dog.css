@@ -63,3 +63,8 @@ html {
   width: 156px;
   height: 40px;
 }
+#image {
+  margin: auto;
+  height: 400px;
+  width: 50%;
+}
