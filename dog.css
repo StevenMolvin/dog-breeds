@@ -3,10 +3,10 @@ html {
     center fixed;
   background-size: contain;
 }
+
 .text {
- 
   text-align: center;
-  color: firebrick; 
+  color: firebrick;
   font-weight: bolder;
 }
 
@@ -20,53 +20,14 @@ html {
   justify-content: left;
 }
 
-#image {
-  margin: auto;
-  height: 400px;
-  width: 50%;
-}
-
-#comments {
-  float: right;
+#breed-list {
+  float: left;
   text-align: left;
-  justify-content: right;
+  justify-content: left;
   width: 500px;
   height: 1400px;
   position: absolute;
-  top: 0;
-  right: 0 ;
-  
+  top: 10;
+  left: 0;
 }
 
-#comment {
-  color: firebrick;
-}
-
-#clabel {
-  font-size: x-large;
-
-  color: firebrick;
-}
-
-#input {
-  font-size: x-large;
-    width:490px; 
-    height: 50px; 
-}
- #submit {
-  font-size: larger;
-  float: right;
-  width: 156px;
-  height: 40px;
-}
-
-#breed-list {
-    float: left;
-    text-align: left;
-    justify-content: left;
-    width: 500px;
-    height: 1400px;
-    position: absolute;
-    top: 10;
-    left: 0 ; 
-}
