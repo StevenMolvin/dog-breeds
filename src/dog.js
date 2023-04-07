@@ -320,5 +320,5 @@ commentForm.addEventListener("submit", (e) => {
   console.log(newComment);
   comment.appendChild(newComment);
 
-  comments.reset();
+  commentForm.reset();
 });
