@@ -24,11 +24,12 @@ html {
   float: left;
   text-align: left;
   justify-content: left;
-  width: 500px;
-  height: 1400px;
+  width: 375px;
+  height: 2700px;
   position: absolute;
   top: 10;
   left: 0;
+  background: black;
 }
 
 #comments {
@@ -36,8 +37,8 @@ html {
   float: right;
   text-align: left;
   justify-content: right;
-  width: 500px;
-  height: 1400px;
+  width: 310px;
+  height: 2700px;
   position: absolute;
   top: 0;
   right: 0;
