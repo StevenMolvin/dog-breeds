@@ -57,10 +57,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 7500);
 
   setTimeout(() => {
-    doThis.innerHTML = "Click a breed name";
+    doThis.innerHTML = "Click on a breed name";
   }, 8000);
   setTimeout(() => {
-    doThis.innerHTML = "Click a breed name to see its picture!";
+    doThis.innerHTML = "Click on a breed name to see its picture!";
   }, 8500);
   setTimeout(() => {
     after.innerHTML = "Do not ";
